@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator2O" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+        <item name="colorPrimary">#FF5722</item>
+        <item name="colorPrimaryVariant">#E47957</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    <!--Secondary brand color-->
+        <item name="colorSecondary">#0091D4</item>
+        <item name="colorSecondaryVariant">#0B1D7D</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!--status bar color-->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+
+    <style name="Theme.Calculator2O" parent="Base.Theme.Calculator2O" />
+</resources>
